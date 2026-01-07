@@ -236,3 +236,12 @@ header{
     height: 50px;
 
 }
+
+/* footer */
+
+footer{
+    text-align: center;
+    padding: 30px;
+    color: #E5E7EB;
+    background-color: #1F2937;
+}
