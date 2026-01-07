@@ -138,7 +138,6 @@ header{
 .cards{
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
     gap: 50px;
     margin-top: 50px;
 
@@ -154,4 +153,44 @@ header{
     border-radius: 15px;
 
     margin-bottom: 10px;
+}
+
+.cards .card p {
+        color: #1F2937;
+
+}
+
+/* qoute section */
+
+.qoute-section{
+    display: flex;
+    justify-content: center;
+
+    padding: 70px;
+    background-color: #E5E7EB;
+}
+
+.qoute-wrapper{
+    width: 60vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.qoute-wrapper p{
+    flex: 1;
+
+}
+
+.qoute-wrapper p:nth-child(1){
+    font-size: 36px;
+    font-size: 300;
+    color: #1F2937;
+}
+
+.qoute-wrapper p:nth-child(2){
+    text-align: end;
+    font-size: 26px;
+    font-weight: bold;
 }
