@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+    font-family: Roboto;
 }
 
 body{
@@ -15,4 +17,35 @@ body{
 header{
     display: flex;
     justify-content: center;
+
+    background-color: #1F2937;
+    padding: 10px;
+
+}
+
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+
+    width: 60vw;
+
+
+}
+
+.header-wrapper h1{
+    flex: 1;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.header-wrapper .navbar ul{
+    display: flex;
+    list-style: none;
+
+    font-size: 18px;
+}
+
+.navbar ul li{
+    color: #E5E7EB;
+
 }
