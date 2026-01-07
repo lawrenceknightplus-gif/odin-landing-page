@@ -41,8 +41,8 @@ header{
 
 .header-wrapper .navbar ul{
     display: flex;
+    gap: 20px;
     list-style: none;
-
     font-size: 18px;
 }
 
